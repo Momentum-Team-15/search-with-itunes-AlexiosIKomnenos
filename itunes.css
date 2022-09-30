@@ -1,0 +1,111 @@
+body { 
+    background-color: purple;
+    background-image: url("https://pbs.twimg.com/media/CGJpk-hWwAAlYBk?format=jpg&name=large");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+h1 { 
+    text-align: center;
+    background-color: purple;
+    border: 1px solid red;
+    color:gold;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/61026bf7ce9d191f6a34ca29/1628002114390-FHMIRMKHO3YGYITT8BJ6/faux+porphry.jpg?format=750w") ;
+    padding: 30px;
+    font-size: 40px;
+    border-radius: 30px;
+    width: 1000px;
+    margin: auto;
+}
+
+
+
+
+label{
+    text-align: center;
+    background-color: gold;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid red;
+    }
+
+
+form { 
+    display: flex; 
+    justify-content: center;
+    color: darkred;
+    
+
+}
+
+#playback { 
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    
+}
+#chirho 
+{
+    background-color: red;
+    width: 30px;
+    display: inline;
+    border-radius: 30px;
+    border: 1px solid gold; 
+    margin: 5%;
+    
+}
+
+h2 { 
+    background-color: purple;
+    color: gold; 
+    width: 450px; 
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.current-song 
+{ 
+    color: darkred;
+    background-color: gold;
+    border-radius: 30px;
+    width: 450px;
+    text-align: center;
+    border: solid 1px red;
+}
+    
+#search-button { 
+    background-color: red;
+    width: 60px;
+}
+   
+    
+
+
+#results { 
+display:flex;
+flex-wrap:wrap;
+text-align:center;
+border-left-width: 2px;
+border-left-style: solid;
+border-right-width: 2px;
+border-right-style: solid;
+padding: 3rem;
+margin: auto;
+
+}
+
+.record {
+    border: 10px;
+    padding: 10px;
+    align-content: space-between;
+    width: 150px;
+    text-align: center;
+    background-color: gold;
+    border: 1px solid red;
+    color: red;
+    font-family: 'Times New Roman';
+    font: 'Times New Roman';
+}

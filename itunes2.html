@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="scripts.js" defer></script>
+  <link rel="stylesheet" href="itunes.css"/>
+  <title>iByzantium</title>
+</head>
+<body>
+  <header>
+    <h1><div id = chirho><b>☧</b></div>Byzantium Music Search<div id = chirho><b>☧</b></div></h1>
+    <h2>The City of Constantinople - 1200AD⬇️</h2>
+    <div id="playback">
+      <audio id="audio-preview" controls src="">
+      </audio>
+      <div class="current-song"><u>🏛️Playing Now:🏛️</u></div>
+    </div>
+  </header>
+  <div id="container">
+    <!--
+        div container, so that all the individual components of the search are within one umbrella div
+    -->
+      <div id="search">
+        <form id="search-form" action="">
+          <label for="term">Search for Music here!➡️</label>
+          <input id="search-box" type="text" name="term" required>
+          <button id="search-button">Search</button>
+          <!-- 
+            Create a form which includes 
+            
+            1. the term, which is what the box
+            to the left of the search bar is, telling people to seach for music in
+            the box. 
+
+            2. The input id, the required forces the user to put a search term in to perform
+            a search. It also creates the search-box element to put search terms in 
+
+            3. the button id = The actual search button you click to perform a search
+
+            
+
+          -->
+        </form>
+      </div>
+        <div id="results"></div>
+        <!--
+            div to display results in
+        -->
+      
+  </div>
+</body>
+</html>
+   
+   
+   
+   
+   
+
+

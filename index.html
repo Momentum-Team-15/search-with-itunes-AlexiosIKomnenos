@@ -3,9 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="main.js" defer></script>
-  <title>Music Search</title>
+  <script src="itunestest.js" defer></script>
+  <link rel="stylesheet" href="itunes.css"/>
+ 
+  <title>MyTunes Music Search</title>
 </head>
+
+
 <body>
+  <header>
+    <h1>Byzantium Music Search</h1>
+    
+  </header>
+  
+  <div id="container">
+      <div id="search">
+        <form id="search-form" action="">
+          <label for="term">Search for Music</label>
+          <input id="search-box" type="text" name="term" required>
+          <button id="search-button">
+            <i class="fa fa-search"></i>
+          </button>
+          <!-- when the button is in the form, it knows it is a submit button -->
+        </form>
+      </div>
+        <div id="results"></div>
+      
+  </div>
 </body>
 </html>
